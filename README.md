@@ -21,7 +21,7 @@ https://www.kaggle.com/datasets/wordsforthewise/lending-club
   - Scaling and normalization
 - Exploratory data analysis：
   - Understanding the distribution and relationship between predictors and response vasriables
-- Model training and Model evaluation
+- Model training and evaluation
 - Model optimization
 - Documentation and reporting
 
