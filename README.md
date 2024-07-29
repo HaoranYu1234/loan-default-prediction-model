@@ -6,6 +6,9 @@
 - Haoran Yu
 - Saad Awan
 
+## Research start and anticipated end time ⌚⏳⏲:
+2024 Augest - 2025 Janurary
+
 ## Research proposal and planning
 
 ### Research motivation 🧐💰💵:
