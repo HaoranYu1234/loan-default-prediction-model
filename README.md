@@ -36,3 +36,6 @@ Understanding and predicting loan defaults is crucial for financial institutions
 - Gradient boosting machines (e.g., XGBoost, LightGBM)
 - Support vector machines (SVM)
 - Neural networks
+
+### Future steps 🔮📈📉
+After the completion of this current project, a API can be created using this trained model. At that time, a new project will be created.
