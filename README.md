@@ -10,6 +10,7 @@
 
 ## Research timeline ⌚⏳⏲:
 General timeline: 2024 Augest - 2024 November
+
 For specific tasks and due dates, look at project milestone.
 
 ## Research proposal and planning
