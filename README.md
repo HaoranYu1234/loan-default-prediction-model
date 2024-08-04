@@ -6,8 +6,9 @@
 - Haoran Yu
 - Saad Awan
 
-## Research start and anticipated end time ⌚⏳⏲:
-2024 Augest - 2025 Janurary
+## Research timeline ⌚⏳⏲:
+General timeline: 2024 Augest - 2025 Janurary
+For specific task, look at project milestone.
 
 ## Research proposal and planning
 
