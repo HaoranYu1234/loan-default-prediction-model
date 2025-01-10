@@ -162,7 +162,7 @@ $$
 
 #### Confidence Intervals and Hypothesis Testing
 - Confidence intervals for coefficients:
-- 
+
   $$
   \hat{\beta}_j \pm 1.96 \cdot SE(\hat{\beta}_j)
   $$
