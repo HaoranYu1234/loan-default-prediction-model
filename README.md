@@ -42,7 +42,3 @@ Understanding and predicting loan defaults is crucial for financial institutions
 
 ### Future steps 🔮📈📉
 After the completion of this current project, a API can be created using this trained model. At that time, a new project will be created.
-
-## Literature review
-
-
