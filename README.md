@@ -100,10 +100,12 @@ Regression is a fundamental supervised learning approach aimed at estimating rel
 #### Metrics for Evaluating $\hat{f}$
 1. **Mean Squared Error (MSE)**:
    - Training MSE:
+     
      $$
      MSE(\hat{f}) = \frac{1}{n} \sum_{i=1}^n \left( y_i - \hat{f}(x_i) \right)^2
      $$
    - Test MSE:
+     
      $$
      MSE_T(\hat{f}) = \frac{1}{m} \sum_{i=1}^m \left( y_i^T - \hat{f}(x_i^T) \right)^2
      $$
@@ -112,9 +114,11 @@ Regression is a fundamental supervised learning approach aimed at estimating rel
 
 2. **Alternative Metrics**:
    - Absolute Error:
+  
      $$
      E[|Y - \hat{f}(X)|]
      $$
+     
    - Classification-specific metrics for categorical or ordinal responses.
 
 #### Overfitting and Underfitting
@@ -123,43 +127,53 @@ Regression is a fundamental supervised learning approach aimed at estimating rel
 
 #### Bias-Variance Decomposition
 For a new observation pair $(X^*, Y^*)$, with $Y^* = f(X^*) + \epsilon^*$, the MSE can be decomposed as:
+
 $$
 E\left[ \left( Y^* - \hat{f}(X^*) \right)^2 \right] = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
 $$
+
 - **Bias**: Error from assumptions in the model.
 - **Variance**: Sensitivity to training data fluctuations.
 - **Irreducible Error**: Noise inherent in the data.
 
 ### Linear Regression with Ordinary Least Squares (OLS)
 Linear regression models the relationship as:
+
 $$
 Y = \beta_0 + \beta_1 X_1 + \cdots + \beta_p X_p + \epsilon
 $$
+
 #### Estimating Coefficients
 OLS minimizes the residual sum of squares:
+
 $$
 \hat{\beta} = \underset{\beta}{\text{argmin}} \frac{1}{n} \sum_{i=1}^n \left( y_i - X_i^\top \beta \right)^2
 $$
 
 In matrix notation:
+
 $$
 \hat{\beta} = \left( X^\top X \right)^{-1} X^\top y
 $$
 
 #### Properties of $ \hat{\beta} $
-- **Unbiasedness**: $ E[\hat{\beta}] = \beta $
+- **Unbiasedness**: $E[\hat{\beta}] = \beta$
 - **Covariance**: $\text{Cov}(\hat{\beta}) = \sigma^2 (X^\top X)^{-1}$
 
 #### Confidence Intervals and Hypothesis Testing
 - Confidence intervals for coefficients:
+- 
   $$
   \hat{\beta}_j \pm 1.96 \cdot SE(\hat{\beta}_j)
   $$
+  
   where $SE(\hat{\beta}_j)$ is the standard error.
 
 #### Model Evaluation
 The $R^2$ coefficient measures the proportion of variance explained by the model:
+
 $$
 R^2 = 1 - \frac{\text{RSS}}{\text{TSS}}
 $$
+
 where RSS is the residual sum of squares, and TSS is the total sum of squares.
