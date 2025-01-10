@@ -52,7 +52,7 @@ Supervised learning involves training models to learn the mapping between input 
 - **Outcome Measurement (Y)**: Known as the dependent variable or response, which the model aims to predict.
 - **Predictor Measurements (X)**: The independent variables or features used to predict the outcome.
 
-The relationship between inputs \( X \) and output \( Y \) is often modeled as:
+The relationship between inputs \(X\) and output \( Y \) is often modeled as:
 \[
 Y = f(X) + \epsilon
 \]
