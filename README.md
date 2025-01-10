@@ -49,23 +49,23 @@ Supervised learning involves training models to learn the mapping between input 
 
 ### Key Components of Supervised Learning
 
-- **Outcome Measurement (Y)**: Known as the dependent variable or response, which the model aims to predict.
-- **Predictor Measurements (X)**: The independent variables or features used to predict the outcome.
+- **Outcome Measurement Y**: Known as the dependent variable or response, which the model aims to predict.
+- **Predictor Measurements X**: The independent variables or features used to predict the outcome.
 
-The relationship between inputs \( X \) and output \( Y \) is often modeled as:
+The relationship between inputs $X$ and output $Y$ is often modeled as:
 
 $$
 Y = f(X) + \epsilon
 $$
 
-where \( f(X) \) is the true underlying relationship and \( \epsilon \) represents the error term.
+where $f(X)$ is the true underlying relationship and $\epsilon$ represents the error term.
 
-The objective is to learn an approximation \( g(X) \) of \( f(X) \) from the training data \( D_{\text{train}} \), consisting of observations \( (x_1, y_1), \ldots, (x_n, y_n) \). The predictor \( g(X) \) should generalize well to new test data \( x^* \).
+The objective is to learn an approximation $g(X)$ of $f(X)$ from the training data $D_{\text{train}}$, consisting of observations $(x_1, y_1), \ldots, (x_n, y_n)$. The predictor $g(X)$ should generalize well to new test data $x^*$.
 
 ### Parametric and Non-Parametric Methods
 
-- **Parametric Methods**: Assume a specific functional form for \( f(X) \), such as linear models.
-- **Non-Parametric Methods**: Do not make assumptions about the form of \( f(X) \) and are more flexible but often require more data.
+- **Parametric Methods**: Assume a specific functional form for $f(X)$, such as linear models.
+- **Non-Parametric Methods**: Do not make assumptions about the form of $f(X)$ and are more flexible but often require more data.
 
 ### Model Selection Process
 
@@ -73,7 +73,7 @@ Model selection involves comparing different types of models, such as parametric
 
 ### Mathematical Framework
 
-The process of learning \( f \) can be viewed as an optimization problem, where the aim is to minimize the expected loss:
+The process of learning $f$ can be viewed as an optimization problem, where the aim is to minimize the expected loss:
 
 $$
 \mathbb{E}[(Y - g(X))^2]
