@@ -2,9 +2,7 @@
 
 ## Research question: How can loan default prediction models be developed and deployed using machine learning techniques?
 
-# 
-
-## Research participants👨‍🔬👩‍🔬🥼:
+## Research participant👨‍🔬👩‍🔬🥼:
 - Haoran(Alex) Yu
 
 ## Research timeline ⌚⏳⏲:
@@ -36,7 +34,6 @@ Understanding and predicting loan defaults is crucial for financial institutions
 - Random Forest
 - Gradient boosting machines (e.g., XGBoost, LightGBM)
 - Support vector machines (SVM)
-- Neural networks
 
 ### Future steps 🔮📈📉
 After the completion of this current project, a API can be created using this trained model. At that time, a new project will be created.
