@@ -1,1 +1,2 @@
 # A Machine Learning Perspective on Predicting Loan Default Risks in Financial Services
+This repository contains an analysis and modeling for predicting loan defaults using LendingClub data from 2007–2010. We explore borrower characteristics, risk features, and train a Random Forest classifier while addressing class imbalance through oversampling. The goal is to flag loans unlikely to be fully paid.
